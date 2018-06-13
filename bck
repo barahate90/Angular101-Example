@@ -1,0 +1,772 @@
+<div id="registrationContainer">
+  <div id="content">
+   <div id="leftContainerReg">
+    <h1 id="headingReg" >Registration From
+    </h1>
+    <div id="reginfoDiv">
+	<form id="reginfoForm" method="post">
+		<table id="reginfoTable">
+      <tbody id="reginfoTbody">
+        <tr id="titleTR_1">
+	        <td colspan="2" id="titleTD_2">
+            <span id="titleSPAN_3">Enter your information</span>
+	        </td>
+      </tr>
+        <tr id="nameTR">
+	<td id="nameTD_1">
+		<label id="nameLABEL">
+			I'm:
+		</label>
+	</td>
+	<td id="nameTD_2">
+		<input type="text" name="firstName" id="nameINPUT_1" />
+		<input type="text" name="lastName" id="nameINPUT_2" />
+		<div id="nameDIV">
+			<span id="nameSPAN_1"></span><span id="nameSPAN_2"></span>
+		</div>
+	</td>
+</tr>
+    <tr id="email_TR">
+	<td id="email_labelTD">
+		<label id="email_label">
+			My Email :
+		</label>
+	</td>
+	<td id="email_inputTD">
+		<input type="text" name="emailid  " id="emailid" />
+		<div id="email_spanDiv">
+			<span id="emailSPAN_1"></span><span id="emailSPAN_2"></span>
+		</div>
+	</td>
+</tr>
+
+        <tr id="usrid_TR">
+	<td id="usrid_labelTD">
+		<label id="usrid_label">
+		My User Name :
+		</label>
+	</td>
+	<td id="usrid_inputTD">
+		<input type="text" name="usridid  " id="usridid" />
+		<div id="usrid_spanDiv">
+			<span id="usridSPAN_1"></span><span id="usridSPAN_2"></span>
+		</div>
+	</td>
+</tr>
+     <tr id="Lob_TR">
+	<td id="Lob_labelTD">
+		<label id="Lob_label">
+			LOB :
+		</label>
+	</td>
+	<td id="Lob_inputTD">
+		<input type="text" name="lobid  " id="lobid" />
+		<div id="lob_spanDiv">
+			<span id="lobSPAN_1"></span><span id="lobSPAN_2"></span>
+		</div>
+	</td>
+</tr>
+
+      </tbody>
+    </table>
+	</form>
+</div>
+</div>
+    <div id="rightContainerReg">
+
+</div>
+</div>
+<div id="tray_start_DIV_1">
+	<div id="tray_start_DIV_2">
+		 <a id="register_A_3" ><span id="register_SPAN_4">REGISTER</span></a> <a  id="register_A_5"><span id="register_SPAN_6">RESET</span></a>
+		<div id="tray_bottom_DIV">
+			 <span id="tray_bottom_SPAN">By signing up, you agree with our Terms Of Service</span>
+		</div>
+	</div>
+</div>
+	
+</div>
+
+
+//CSS
+
+#registrationContainer {
+    color: rgb(127, 127, 127);
+    height: 765px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 1903px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 951.5px 382.5px;
+    transform-origin: 951.5px 382.5px;
+    caret-color: rgb(127, 127, 127);
+    background: rgb(255, 255, 255) url("https://fastest.cognizant.com/webapps/views/images/common/content_bg.png") repeat-x scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    margin: -7px 0px -1px;
+    outline: rgb(127, 127, 127) none 0px;
+}/*#DIV_1*/
+#content {
+    color: rgb(127, 127, 127);
+    height: 713px;
+    min-height: 350px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 1000px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 500px 356.5px;
+    transform-origin: 500px 356.5px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    margin: 0px 451.5px;
+    outline: rgb(127, 127, 127) none 0px;
+    overflow: hidden;
+}/*#DIV_1*/
+#leftContainerReg {
+    background-position: 100% 0%;
+    color: rgb(127, 127, 127);
+    float: left;
+    height: 713px;
+    min-height: 550px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 767px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 383.5px 856.5px;
+    transform-origin: 383.5px 856.5px;
+    caret-color: rgb(127, 127, 127);
+    background: rgba(0, 0, 0, 0) url("https://fastest.cognizant.com/webapps/views/images/common/content_divider.png") repeat-y scroll 100% 0% / auto padding-box border-box;
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    margin: 0px 0px -1000px;
+    outline: rgb(127, 127, 127) none 0px;
+    padding: 0px 0px 1000px;
+}/*#DIV_1*/
+/* #content {
+    color: rgb(127, 127, 127);
+    height: 713px;
+    min-height: 350px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 1000px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 500px 356.5px;
+    transform-origin: 500px 356.5px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    margin: 0px 451.5px;
+    outline: rgb(127, 127, 127) none 0px;
+    overflow: hidden;
+}/*#DIV_1*/ 
+#reginfoDiv {
+    color: rgb(127, 127, 127);
+    float: left;
+    height: 624px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 732px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 381px 322px;
+    transform-origin: 381px 322px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+    padding: 10px 20px 10px 10px;
+}/*#DIV_1*/
+#reginfoForm {
+    color: rgb(127, 127, 127);
+    height: 624px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 732px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 366px 312px;
+    transform-origin: 366px 312px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    margin: 0px;
+    outline: rgb(127, 127, 127) none 0px;
+}/*#FORM_2*/
+#rightContainerReg {
+    color: rgb(127, 127, 127);
+    float: left;
+    height: 346px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 231px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 115.5px 673px;
+    transform-origin: 115.5px 673px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    margin: 0px 0px -1000px;
+    outline: rgb(127, 127, 127) none 0px;
+    padding: 0px 0px 1000px;
+}/*#D*/
+#buttonTrayBox {
+    color: rgb(127, 127, 127);
+    height: 52px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 1903px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 951.5px 26px;
+    transform-origin: 951.5px 26px;
+    caret-color: rgb(127, 127, 127);
+    background: rgb(220, 218, 218) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+}/*#DIV_1*/
+#registrationContainer {
+    color: rgb(127, 127, 127);
+    height: 765px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 1903px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 951.5px 382.5px;
+    transform-origin: 951.5px 382.5px;
+    caret-color: rgb(127, 127, 127);
+    background: rgb(255, 255, 255) url("https://fastest.cognizant.com/webapps/views/images/common/content_bg.png") repeat-x scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    margin: -7px 0px -1px;
+    outline: rgb(127, 127, 127) none 0px;
+}/*#DIV_1*/
+#leftContainerReg {
+    background-position: 100% 0%;
+    color: rgb(127, 127, 127);
+    float: left;
+    height: 713px;
+    min-height: 550px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 767px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 383.5px 856.5px;
+    transform-origin: 383.5px 856.5px;
+    caret-color: rgb(127, 127, 127);
+    background: rgba(0, 0, 0, 0) url("https://fastest.cognizant.com/webapps/views/images/common/content_divider.png") repeat-y scroll 100% 0% / auto padding-box border-box;
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    margin: 0px 0px -1000px;
+    outline: rgb(127, 127, 127) none 0px;
+    padding: 0px 0px 1000px;
+}/*#DIV_1*/
+#rightContainerReg {
+    color: rgb(127, 127, 127);
+    float: left;
+    height: 346px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 231px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 115.5px 673px;
+    transform-origin: 115.5px 673px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    margin: 0px 0px -1000px;
+    outline: rgb(127, 127, 127) none 0px;
+    padding: 0px 0px 1000px;
+}/*#D*/
+#reginfoTable {
+    border-collapse: collapse;
+    color: rgb(127, 127, 127);
+    height: 60px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 732px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 366px 312px;
+    transform-origin: 366px 312px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    border-spacing: 0px 0px;
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+}/*#TABLE_1*/
+#reginfoTbody {
+    border-collapse: collapse;
+    color: rgb(127, 127, 127);
+    height: 624px;
+    text-decoration: none solid rgb(127, 127, 127);
+    vertical-align: baseline;
+    width: 732px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 366px 312px;
+    transform-origin: 366px 312px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+}/*#TBODY_2*/
+#label_TR{
+    border-collapse: collapse;
+    color: rgb(127, 127, 127);
+    height: 3px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 732px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 366px 16.5px;
+    transform-origin: 366px 16.5px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+}/*#TR_1*/
+#titleTD_2 ,lable_TD_2{
+    border-collapse: collapse;
+    color: rgb(127, 127, 127);
+    height: 19px;
+    text-align: left;
+    text-decoration: none solid rgb(127, 127, 127);
+    vertical-align: middle;
+    width: 720px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 366px 16.5px;
+    transform-origin: 366px 16.5px;
+    caret-color: rgb(127, 127, 127);
+    border-top: 0px none rgb(127, 127, 127);
+    border-right: 0px none rgb(127, 127, 127);
+    border-bottom: 1px solid rgb(219, 219, 219);
+    border-left: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+    padding: 7px 7px 7px 5px;
+}/*#TD_2*/
+#titleSPAN_3 {
+    border-collapse: collapse;
+    color: rgb(31, 178, 89);
+    text-align: left;
+    text-decoration: none solid rgb(31, 178, 89);
+    column-rule-color: rgb(31, 178, 89);
+    caret-color: rgb(31, 178, 89);
+    border: 0px none rgb(31, 178, 89);
+    font: normal normal 400 normal 14px / normal open_sans, sans-serif;
+    outline: rgb(31, 178, 89) none 0px;
+    padding: 0px 0px 5px;
+}/*#SPAN_3*/
+#Lob_TR,#usrid_TR,#email_TR{
+    border-collapse: collapse;
+    color: rgb(127, 127, 127);
+    height: 39px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 732px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 366px 19.5px;
+    transform-origin: 366px 19.5px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+}/*#TR_1*/
+
+
+#usrid_labelTD,#Lob_labelTD,#email_labelTD{
+    border-collapse: collapse;
+    color: rgb(127, 127, 127);
+    text-align: left;
+    text-decoration: none solid rgb(127, 127, 127);
+    column-rule-color: rgb(127, 127, 127);
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+}/*#LABEL_3*/
+
+#Lob_label,#usrid_label,#email_label{
+    border-collapse: collapse;
+    color: rgb(127, 127, 127);
+    height: 25px;
+    text-align: left;
+    text-decoration: none solid rgb(127, 127, 127);
+    vertical-align: middle;
+    width: 498px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 262.5px 19.5px;
+    transform-origin: 262.5px 19.5px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+    padding: 7px 7px 7px 20px;
+}/*#TD_4*/
+
+#Lob_inputTD #usrid_inputTD #email_inputTD {
+    border-collapse: collapse;
+    color: rgb(219, 219, 219);
+    height: 25px;
+    text-decoration: none solid rgb(219, 219, 219);
+    width: 498px;
+    column-rule-color: rgb(219, 219, 219);
+    perspective-origin: 249px 12.5px;
+    transform-origin: 249px 12.5px;
+    caret-color: rgb(219, 219, 219);
+    border-top: 1px solid rgb(192, 192, 192);
+    border-right: 1px solid rgb(217, 217, 217);
+    border-bottom: 1px solid rgb(217, 217, 217);
+    border-left: 1px solid rgb(217, 217, 217);
+    border-radius: 1px 1px 1px 1px;
+    font: italic normal 400 normal 13px / normal "Open Sans", "Trebuchet MS", "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", Verdana, sans-serif;
+    outline: rgb(219, 219, 219) none 0px;
+    padding: 1px 0px 1px 8px;
+}/*#INPUT_5*/
+
+#lob_spanDiv,#usrid_spanDiv,#email_spanDiv{
+    border-collapse: collapse;
+    color: rgb(153, 45, 77);
+    display: none;
+    height: auto;
+    text-align: left;
+    text-decoration: none solid rgb(153, 45, 77);
+    width: auto;
+    column-rule-color: rgb(153, 45, 77);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    caret-color: rgb(153, 45, 77);
+    background: rgb(249, 228, 233) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(153, 45, 77);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    margin: 5px 0px;
+    outline: rgb(153, 45, 77) none 0px;
+    padding: 3px;
+}/*#DIV_6*/
+
+#lobSPAN_1,#usridSPAN_1,#emailSPAN_1 {
+    background-position: 50% 50%;
+    border-collapse: collapse;
+    color: rgb(153, 45, 77);
+    display: inline-block;
+    height: 16px;
+    text-align: left;
+    text-decoration: none solid rgb(153, 45, 77);
+    vertical-align: text-top;
+    width: 16px;
+    column-rule-color: rgb(153, 45, 77);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    caret-color: rgb(153, 45, 77);
+    background: rgba(0, 0, 0, 0) url("https://fastest.cognizant.com/webapps/views/images/error_icon.gif") no-repeat scroll 50% 50% / auto padding-box border-box;
+    border: 0px none rgb(153, 45, 77);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(153, 45, 77) none 0px;
+}/*#SPAN_7*/
+
+#lobSpan_2,#usridSpan_2,#emailSPAN_2 {
+    border-collapse: collapse;
+    color: rgb(153, 45, 77);
+    text-align: left;
+    text-decoration: none solid rgb(153, 45, 77);
+    vertical-align: text-top;
+    column-rule-color: rgb(153, 45, 77);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    caret-color: rgb(153, 45, 77);
+    border: 0px none rgb(153, 45, 77);
+    font: normal normal 400 normal 13px / 16px open_sans, sans-serif;
+    outline: rgb(153, 45, 77) none 0px;
+    padding: 0px 10px 0px 0px;
+}/*#SPAN_8*/
+
+#nameTR {
+    border-collapse: collapse;
+    color: rgb(127, 127, 127);
+    height: 40px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 732px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 366px 20px;
+    transform-origin: 366px 20px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+}/*#TR_1*/
+
+#nameTD_1{
+    border-collapse: collapse;
+    color: rgb(127, 127, 127);
+    height: 25px;
+    text-align: left;
+    text-decoration: none solid rgb(127, 127, 127);
+    vertical-align: middle;
+    width: 180px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 103.5px 20px;
+    transform-origin: 103.5px 20px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+    padding: 7px 7px 7px 20px;
+}/*#TD_2*/
+
+#nameLABEL{
+    border-collapse: collapse;
+    color: rgb(127, 127, 127);
+    text-align: left;
+    text-decoration: none solid rgb(127, 127, 127);
+    column-rule-color: rgb(127, 127, 127);
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+}/*#LABEL_3*/
+
+#nameTD_2{
+    border-collapse: collapse;
+    color: rgb(127, 127, 127);
+    height: 25px;
+    text-align: left;
+    text-decoration: none solid rgb(127, 127, 127);
+    vertical-align: middle;
+    width: 400px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 262.5px 20px;
+    transform-origin: 262.5px 20px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+    padding: 7px px 7px 20px;
+}/*#TD_4*/
+#nameDIV {
+    border-collapse: collapse;
+    color: rgb(153, 45, 77);
+    display: none;
+    height: auto;
+    text-align: left;
+    text-decoration: none solid rgb(153, 45, 77);
+    width: auto;
+    column-rule-color: rgb(153, 45, 77);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    caret-color: rgb(153, 45, 77);
+    background: rgb(249, 228, 233) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(153, 45, 77);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    margin: 5px 0px;
+    outline: rgb(153, 45, 77) none 0px;
+    padding: 3px;
+}/*#DIV_7*/
+
+#nameSPAN_1 {
+    background-position: 50% 50%;
+    border-collapse: collapse;
+    color: rgb(153, 45, 77);
+    display: inline-block;
+    height: 16px;
+    text-align: left;
+    text-decoration: none solid rgb(153, 45, 77);
+    vertical-align: text-top;
+    width: 16px;
+    column-rule-color: rgb(153, 45, 77);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    caret-color: rgb(153, 45, 77);
+    background: rgba(0, 0, 0, 0) url("https://fastest.cognizant.com/webapps/views/images/error_icon.gif") no-repeat scroll 50% 50% / auto padding-box border-box;
+    border: 0px none rgb(153, 45, 77);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(153, 45, 77) none 0px;
+}/*#SPAN_8*/
+
+#nameSPAN_2 {
+    border-collapse: collapse;
+    color: rgb(153, 45, 77);
+    text-align: left;
+    text-decoration: none solid rgb(153, 45, 77);
+    vertical-align: text-top;
+    column-rule-color: rgb(153, 45, 77);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    caret-color: rgb(153, 45, 77);
+    border: 0px none rgb(153, 45, 77);
+    font: normal normal 400 normal 13px / 16px open_sans, sans-serif;
+    outline: rgb(153, 45, 77) none 0px;
+    padding: 0px 10px 0px 0px;
+}/*#SPAN_9*/
+
+/* #nameINPUT_1 {
+    border-collapse: collapse;
+    color: rgb(219, 219, 219);
+    height: 25px;
+    text-decoration: none solid rgb(219, 219, 219);
+    width: 185px;
+    column-rule-color: rgb(219, 219, 219);
+    perspective-origin: 92.5px 12.5px;
+    transform-origin: 92.5px 12.5px;
+    caret-color: rgb(219, 219, 219);
+    border-top: 1px solid rgb(192, 192, 192);
+    border-right: 1px solid rgb(217, 217, 217);
+    border-bottom: 1px solid rgb(217, 217, 217);
+    border-left: 1px solid rgb(217, 217, 217);
+    border-radius: 1px 1px 1px 1px;
+    font: italic normal 400 normal 13px / normal "Open Sans", "Trebuchet MS", "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", Verdana, sans-serif;
+    outline: rgb(219, 219, 219) none 0px;
+    padding: 1px 0px 1px 8px;
+}/*#INPUT_5*/
+
+/* #nameINPUT_2 {
+    border-collapse: collapse;
+    color: rgb(219, 219, 219);
+    height: 25px;
+    text-decoration: none solid rgb(219, 219, 219);
+    width: 185px;
+    column-rule-color: rgb(219, 219, 219);
+    perspective-origin: 92.5px 12.5px;
+    transform-origin: 92.5px 12.5px;
+    caret-color: rgb(219, 219, 219);
+    border-top: 1px solid rgb(192, 192, 192);
+    border-right: 1px solid rgb(217, 217, 217);
+    border-bottom: 1px solid rgb(217, 217, 217);
+    border-left: 1px solid rgb(217, 217, 217);
+    border-radius: 1px 1px 1px 1px;
+    font: italic normal 400 normal 13px / normal "Open Sans", "Trebuchet MS", "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", Verdana, sans-serif;
+    margin: 0px 0px 0px 10px;
+    outline: rgb(219, 219, 219) none 0px;
+    padding: 1px 0px 1px 8px;
+}/*#INPUT_6*/ 
+ 
+
+
+
+
+
+#tray_start_DIV_1 {
+    color: rgb(127, 127, 127);
+    height: 52px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 1903px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 951.5px 26px;
+    transform-origin: 951.5px 26px;
+    caret-color: rgb(127, 127, 127);
+    background: rgb(220, 218, 218) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+}/*#DIV_1*/
+
+#tray_start_DIV_2 {
+    bottom: 0px;
+    color: rgb(127, 127, 127);
+    height: 52px;
+    left: 232px;
+    position: relative;
+    right: -232px;
+    text-decoration: none solid rgb(127, 127, 127);
+    top: 0px;
+    width: 1000px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 500px 28px;
+    transform-origin: 500px 28px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    margin: 0px 451.5px;
+    outline: rgb(127, 127, 127) none 0px;
+    padding: 4px 0px 0px;
+}/*#DIV_2*/
+
+#register_A_3{
+    background-position: 100% 100%;
+    color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 31px;
+    min-width: 70px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    width: 70px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 42px 15.5px;
+    transform-origin: 42px 15.5px;
+    caret-color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0) url("https://fastest.cognizant.com/webapps/views/images/common/tray_btn_right.png") no-repeat scroll 100% 100% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    margin: 8px 4px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 0px 14px 0px 0px;
+}/*#A_3*/
+
+#register_SPAN_4 {
+    background-position: 0% 100%;
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 15px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    width: 56px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 35px 15.5px;
+    transform-origin: 35px 15.5px;
+    caret-color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0) url("https://fastest.cognizant.com/webapps/views/images/common/tray_btn_left.png") no-repeat scroll 0% 100% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 700 normal 11px / 14px open_sans, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 8px 0px 8px 14px;
+}/*#SPAN_4*/
+
+#register_A_5 {
+    background-position: 100% 0%;
+    color: rgb(15, 112, 162);
+    display: block;
+    float: left;
+    height: 31px;
+    min-width: 70px;
+    text-align: center;
+    text-decoration: none solid rgb(15, 112, 162);
+    width: 70px;
+    column-rule-color: rgb(15, 112, 162);
+    perspective-origin: 42px 15.5px;
+    transform-origin: 42px 15.5px;
+    caret-color: rgb(15, 112, 162);
+    background: rgba(0, 0, 0, 0) url("https://fastest.cognizant.com/webapps/views/images/common/tray_btn_right.png") no-repeat scroll 100% 0% / auto padding-box border-box;
+    border: 0px none rgb(15, 112, 162);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    margin: 8px 4px;
+    outline: rgb(15, 112, 162) none 0px;
+    padding: 0px 14px 0px 0px;
+}/*#A_5*/
+
+#register_SPAN_6 {
+    background-position: 0px 0px;
+    color: rgb(15, 112, 162);
+    display: block;
+    height: 15px;
+    text-align: center;
+    text-decoration: none solid rgb(15, 112, 162);
+    width: 56px;
+    column-rule-color: rgb(15, 112, 162);
+    perspective-origin: 35px 15.5px;
+    transform-origin: 35px 15.5px;
+    caret-color: rgb(15, 112, 162);
+    background: rgba(0, 0, 0, 0) url("https://fastest.cognizant.com/webapps/views/images/common/tray_btn_left.png") no-repeat scroll 0px 0px / auto padding-box border-box;
+    border: 0px none rgb(15, 112, 162);
+    font: normal normal 700 normal 11px / 14px open_sans, sans-serif;
+    outline: rgb(15, 112, 162) none 0px;
+    padding: 8px 0px 8px 14px;
+}/*#SPAN_6*/
+
+#tray_bottom_DIV {
+    color: rgb(127, 127, 127);
+    height: 18px;
+    text-decoration: none solid rgb(127, 127, 127);
+    width: 1000px;
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 500px 16.5px;
+    transform-origin: 500px 16.5px;
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+    padding: 15px 0px 0px;
+}/*#DIV_7*/
+
+#tray_bottom_SPAN {
+    color: rgb(127, 127, 127);
+    text-decoration: none solid rgb(127, 127, 127);
+    column-rule-color: rgb(127, 127, 127);
+    caret-color: rgb(127, 127, 127);
+    border: 0px none rgb(127, 127, 127);
+    font: normal normal 400 normal 13px / normal open_sans, sans-serif;
+    outline: rgb(127, 127, 127) none 0px;
+}/*#SPAN_8*/
+
